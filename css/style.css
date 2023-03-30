@@ -266,7 +266,7 @@ background-color: rgb(245, 141, 158);
     h1{
         font-size: 1.7em;
         position: relative;
-        right: 50px;
+        right: 30px;
     }
 
     button{
@@ -302,35 +302,50 @@ background-color: rgb(245, 141, 158);
 
     .box_color_green p, .box_color_pink p, .box_color_yellow p{
         font-size: 0.7em;
-        top: 8vh;
+        top: 20px;
     }
 
     .seach_bar{
-        margin-right: 20px;
+        margin-left: 25px;
+        width: 250px;
+        height: 55px; 
+    }
+
+    .under_search_bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .image{
-        height: 82vh;
+        width: 300px;
+        height: 350px;
     }
 
-    #nom, {
-        height: 45px;
-        margin: 5px;
+    .formular{
+        float: none;
+    }
+
+    #nom {
+        width: 250px;
+        height: 55px;
+        margin: 15px 5px 5px 5px;
+        right: 50px;
     }
 
     #Based{
+        width: 250px;
         height: 100px;
-        margin: 5px 0 5px 10px;
+        margin: 5px 0 5px 0;
+        right: 48px;
     }
 
     .social_media{
-        position: relative;
-        display: flex;
-        background-color: rgba(61, 60, 60, 0.692);
-        width: 45vh;
+        width: 250px;
         height: 55px;
         border-radius: 15px;
         margin: 5px 0 10px 10px;
+        right: 58px;
     }
 
     .portfolio{
